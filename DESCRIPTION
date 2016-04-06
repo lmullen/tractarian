@@ -1,0 +1,16 @@
+Package: tractarian
+Type: Package
+Title: Tracts for the Times
+Version: 0.0.0.9000
+Description: The texts of the ninety "Tracts for the Times" published between
+    1833 and 1841 as part of the Oxford Movement within the Church of England.
+License: MIT + file LICENSE
+LazyData: yes
+Authors@R: c(person("Lincoln", "Mullen", role = c("aut", "cre"),
+        email = "lincoln@lincolnmullen.com"),
+        person("Project Canterbury", role = "ctb"))
+VignetteBuilder: knitr
+URL: https://github.com/lmullen/tractarian
+BugReports: https://github.com/lmullen/tractarian/issues
+RoxygenNote: 5.0.1
+Depends: R (>= 3.1.0)
